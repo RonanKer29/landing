@@ -1,0 +1,81 @@
+.banner {
+  background-image: url("../../images/banner-pic.jpeg");
+  padding: 200px 0;
+  background-size: cover;
+  background-position: center;
+}
+
+.banner h1 {
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  color: white;
+  padding: 10px;
+}
+
+.banner p {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 20px;
+  line-height: 2;
+  opacity: 0.9;
+  font-style: normal;
+  color: white;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.container {
+  width: 900px;
+  margin: auto;
+}
+
+.btn-primary {
+  display: inline-block;
+  background: rgba(124, 236, 241, 0.9);
+  padding: 16px 36px;
+  border-radius: 40px;
+  color: white;
+  font-size: 20px;
+}
+
+.text-center {
+  text-align: center;
+  padding: 15px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 200px;
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgb(230, 230, 230);
+  text-align: center;
+  padding: 20px;
+  border: 1px solid rgb(230, 230, 230);
+}
+
+.card p {
+  opacity: 0.5;
+}
+.card img {
+  width: 150px;
+  opacity: 0.5;
+}
+
+.footer {
+  text-align: center;
+  padding: 60px;
+  background-color: #f8fafd;
+}
+
+.footer a {
+  font-size: 30px;
+  text-decoration: none;
+  color: rgb(45, 229, 253);
+  padding: 5px;
+}
